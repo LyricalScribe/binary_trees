@@ -3,6 +3,7 @@
 /**
 * binary_tree_preorder- preorder tree treversal
 * @tree: root of the tree
+* @func: pointer to the function
 * Returns: nothing
 */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
